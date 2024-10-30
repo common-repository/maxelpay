@@ -1,0 +1,95 @@
+img.maxelpay-pay-logo {
+	float: right;
+	margin-right: 20px;
+
+}
+
+.maxelpay-pay-label {
+	width: 100%;
+}
+
+.maxelpay-clipboard-container button {
+	border: none;
+}
+
+.maxelpay-clipboard-container {
+
+	display: inline;
+
+}
+
+.maxelpay-clipboard-container button#maxelpay-webhook-url:hover +.maxelpay-clipboard-hover {
+
+    visibility: visible;
+	
+}
+
+.maxelpay-clipboard-hover {
+	visibility: hidden;
+    background-color: #1d2327;
+    border-radius: 4px;
+    color: #fff;
+    padding: 6px;
+    border: 1px solid #1d2327;
+    margin-left: 10px;
+	position:relative;
+    
+}
+.maxelpay-clipboard-hover:after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #1d2327 transparent transparent;
+	
+}
+
+.payment_methods.methods li.wc_payment_method.payment_method_maxelpay {
+
+    border: 1px #ddd solid;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    
+}
+
+
+
+li.wc_payment_method.payment_method_maxelpay label {
+
+    display: inline;
+    color: #333333;
+    font-weight: bold;
+
+}
+
+li.wc_payment_method.payment_method_maxelpay label img {
+
+    max-width: 121px;
+    
+}
+
+        
+#maxelpay-webhook-url {
+
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+    margin-top: 6px;
+	cursor: pointer;
+}
+.maxelpay-copy {
+
+    background-image: url('../images/maxelpay-copy.svg');
+   
+}
+
+.maxelpay-copy-done {
+
+    background-image: url('../images/maxelpay-tick.svg');
+   
+    
+}

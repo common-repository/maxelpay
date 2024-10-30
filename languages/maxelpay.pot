@@ -1,0 +1,215 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MaxelPay\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-30 07:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
+"X-Domain: maxelpay"
+
+#. %s: payment
+#: includes/class-maxelpay-woo-order-handling.php:152
+#, php-format
+msgid "%1$s payment %2$s (payment ID: %3$s)."
+msgstr ""
+
+#. %s: currency
+#: admin/class-maxelpay-woo-payment-gateway.php:100
+#, php-format
+msgid ""
+"%s is not a supported currency on MaxelPay. Please choose a different one."
+msgstr ""
+
+#: includes/class-maxelpay-woo-order-handling.php:90
+msgid "Api key is wrong or empty in the header."
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:233
+msgid ""
+"Copy this url and add in <a href=\"https://dashboard.maxelpay."
+"com/developers\" target=\"_blank\"><b>MaxelPay developers</b></a> area. This "
+"is required to add for communication between website and MaxelPay."
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:243
+msgid "Debug Log"
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:168
+msgid "Environment"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://maxelpay.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/mndpsingh287"
+msgstr ""
+
+#: maxelpay.php:185
+msgid "Install"
+msgstr ""
+
+#: maxelpay.php:193
+msgid "Install WooCommerce"
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:89
+msgid "Invalid order ID."
+msgstr ""
+
+#. Name of the plugin
+msgid "MaxelPay"
+msgstr ""
+
+#: admin/class-maxelpay-payment-gateway-blocks.php:95
+#: admin/class-maxelpay-woo-payment-gateway.php:49
+msgid "MaxelPay (Crypto)"
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:182
+msgid "MaxelPay (crypto)"
+msgstr ""
+
+#: maxelpay.php:180
+msgid "MaxelPay requires WooCommerce to be active."
+msgstr ""
+
+#. %s: MaxelPay
+#: maxelpay.php:185
+#, php-format
+msgid ""
+"MaxelPay requires WooCommerce to be installed and active. Click here to %s "
+"WooCommerce plugin."
+msgstr ""
+
+#. Author of the plugin
+msgid "mndpsingh287"
+msgstr ""
+
+#: admin/class-maxelpay-payment-gateway-blocks.php:111
+#: admin/class-maxelpay-woo-payment-gateway.php:199
+msgid "Pay With MaxelPay"
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:145
+msgid "Payment could not be processed, please try again!"
+msgstr ""
+
+#: includes/class-maxelpay-woo-order-handling.php:164
+msgid "Payment status updated successfully."
+msgstr ""
+
+#. %s: Api key
+#: admin/class-maxelpay-woo-payment-gateway.php:309
+#, php-format
+msgid "Please Enter %s Api Key."
+msgstr ""
+
+#. %s: Secret key
+#: admin/class-maxelpay-woo-payment-gateway.php:311
+#, php-format
+msgid "Please Enter %s Secret Key."
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:172
+msgid "Production"
+msgstr ""
+
+#: maxelpay.php:96
+msgid "Settings"
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:286
+msgid "Something went wrong!"
+msgstr ""
+
+#: api/class-maxelpay-request-builder.php:125
+msgid "Something went wrong, maybe the server isn`t responding."
+msgstr ""
+
+#: api/class-maxelpay-request-builder.php:139
+msgid "Something went wrong, maybe the server isn’t responding."
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:171
+msgid "Staging"
+msgstr ""
+
+#: includes/class-maxelpay-woo-order-handling.php:106
+msgid "There is no data found."
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:198
+msgid ""
+"This controls the button for the payment method the customer sees during "
+"checkout."
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:190
+msgid ""
+"This controls the description for the payment method the customer sees "
+"during checkout."
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:181
+msgid ""
+"This controls the title for the payment method the customer sees during "
+"checkout."
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:175
+msgid ""
+"This option determines whether you are processing real transactions or test "
+"transactions."
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:179
+msgid "Title"
+msgstr ""
+
+#: includes/class-maxelpay-woo-order-handling.php:120
+msgid ""
+"Unfortunately, we can`t update payment status. It seems the Order ID, Maxel "
+"ID, or payment status are unavailable."
+msgstr ""
+
+#. Description of the plugin
+#: admin/class-maxelpay-payment-gateway-blocks.php:99
+#: admin/class-maxelpay-woo-payment-gateway.php:50
+#: admin/class-maxelpay-woo-payment-gateway.php:191
+msgid "Use MaxelPay for secure crypto payments."
+msgstr ""
+
+#: includes/class-maxelpay-woo-order-handling.php:132
+msgid "We couldn`t find any order with the order ID you provided."
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:247
+msgid ""
+"When you turn it on, the plugin keeps a record of important errors, "
+"information, and warnings that could help you figure out and fix problems."
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:204
+#: admin/class-maxelpay-woo-payment-gateway.php:218
+msgid ""
+"You can locate the API Key by going to the settings in your MaxelPay account."
+msgstr ""
+
+#: admin/class-maxelpay-woo-payment-gateway.php:211
+#: admin/class-maxelpay-woo-payment-gateway.php:226
+msgid ""
+"You can locate the API Secret by going to the settings in your MaxelPay "
+"account."
+msgstr ""
